@@ -1,3 +1,4 @@
+
 import { clsx } from "clsx";
 import { twMerge } from "tailwind-merge";
 
@@ -6,8 +7,8 @@ export function cn(...inputs) {
 }
 
 export function formatCurrency(amount) {
-    return new Intl.NumberFormat('en-AU', {
+    return new Intl.NumberFormat('en-LK', {
         style: 'currency',
-        currency: 'AUD',
+        currency: 'LKR',
     }).format(amount);
 }

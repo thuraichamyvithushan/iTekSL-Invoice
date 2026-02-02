@@ -346,7 +346,7 @@ const InvoiceForm = () => {
                                         <span className="text-xs font-bold uppercase tracking-widest">Total Calculation</span>
                                     </div>
                                     <div className="text-right">
-                                        <p className="text-sm text-slate-500 font-medium">Grand Total (AUD)</p>
+                                        <p className="text-sm text-slate-500 font-medium">Grand Total (LKR)</p>
                                         <p className="text-4xl font-black text-primary">{formatCurrency(calculateSubtotal())}</p>
                                     </div>
                                 </div>
