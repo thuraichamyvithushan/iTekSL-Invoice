@@ -235,7 +235,7 @@ const InvoicePreview = () => {
                                         <th className="text-left py-2 font-bold uppercase tracking-wider">Description</th>
                                         <th className="text-center py-2 font-bold uppercase tracking-wider">Quantity</th>
                                         <th className="text-right py-2 font-bold uppercase tracking-wider">Unit Price</th>
-                                        <th className="text-right py-2 font-bold uppercase tracking-wider">Amount AUD</th>
+                                        <th className="text-right py-2 font-bold uppercase tracking-wider">Amount LKR</th>
                                     </tr>
                                 </thead>
                                 <tbody className="text-[11px] text-slate-700">
@@ -252,7 +252,7 @@ const InvoicePreview = () => {
 
                             <div className="flex justify-end p-2 border-t border-slate-700 mb-20">
                                 <div className="w-64 flex justify-between items-center text-xs font-bold">
-                                    <span className="uppercase tracking-widest text-slate-900">TOTAL AUD</span>
+                                    <span className="uppercase tracking-widest text-slate-900">TOTAL LKR</span>
                                     <span className="text-sm font-black text-slate-950">{formatCurrency(invoice.totalAmount)}</span>
                                 </div>
                             </div>
